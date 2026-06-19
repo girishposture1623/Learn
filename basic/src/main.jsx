@@ -7,6 +7,6 @@ import First from './first.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <First/>
+   
   </StrictMode>,
 )
