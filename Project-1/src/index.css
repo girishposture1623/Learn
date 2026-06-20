@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: #111;
+}
+
+.parent{
+  width: 100vh;
+  /* height: 100%; */
+  padding: 40px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width:250px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.card .top{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 30px;
+
+}
+
+.top img{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+object-fit: cover;
+border: 1px solid #dadada;
+padding: 2px;
+}
+.top button{
+  display: flex;
+  align-items:center ;
+  border: #dadada 2px solid;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: #dadada;
+}
+
+.center h3{
+  font-size: 12px;
+  font-weight: 600;
+
+}
+.center h2{
+  font-size: 18px;
+  font-weight: 600;
+
+}
+.center h3 span{
+  font-weight: 400;
+  font-size: 10px;
+  color: #8b8b8b;
+}
+.center h3 {
+font-size: 20px;
+}
+.center .tag{
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  
+}
+.center .tag h4{
+  font-size: 12px;
+  background-color: #dadada;
+  color: #111;
+  font-weight: 500;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+.botum{
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-top: 1px solid #b1b1b1;
+padding: 15px;
+margin-top: 60px;
+}
+
+.botum button{
+  background-color: black;
+  font-size: 10px;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  column-width: 600;
+}
+
+.botum h3{
+  font-size: 17px;
+}
+.botum p{
+font-size: 12px;
+color: #8b8b8b;
+}
